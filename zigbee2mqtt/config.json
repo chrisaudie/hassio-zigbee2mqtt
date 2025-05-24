@@ -1,6 +1,6 @@
 {
-  "name": "Zigbee2MQTT",
-  "version": "2.3.0-1",
+  "name": "Zigbee2MQTTdevCA",
+  "version": "devCA",
   "slug": "zigbee2mqtt",
   "description": "Use your ZigBee devices without the vendor's bridge or gateway",
   "breaking_versions": [
@@ -89,5 +89,5 @@
     "watchdog": "str?",
     "force_onboarding": "bool?"
   },
-  "image": "ghcr.io/zigbee2mqtt/zigbee2mqtt-{arch}"
+  "image": "ghcr.io/zigbee2mqtt/zigbee2mqtt-{arch}:latest-dev"
 }
